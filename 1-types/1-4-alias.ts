@@ -1,6 +1,6 @@
 {
   /**
-   * Type Aliases
+   * Type Aliases(별칭)
    */
   type Text = string;
   const name: Text = 'ellie';

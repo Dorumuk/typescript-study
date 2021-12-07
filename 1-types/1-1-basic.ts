@@ -27,12 +27,12 @@
   let person: null; // 💩
   let person2: string | null;
 
-  // unknown 💩
-  let notSure: unknown = 0;
+  // unknown (잘모르겠어..) 💩
+  let notSure: unknown = 0; // any와 비슷함.
   notSure = 'he';
   notSure = true;
 
-  // any 💩
+  // any (뭐든지 오케이!) 💩
   let anything: any = 0;
   anything = 'hello';
 
@@ -43,7 +43,7 @@
   }
   let unusable: void = undefined; // 💩
 
-  // never
+  // never (절대 리턴하면 안돼)
   function throwError(message: string): never {
     // message -> server (log)
     throw new Error(message);

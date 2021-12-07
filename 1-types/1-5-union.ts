@@ -2,12 +2,13 @@
   /**
    *  Union Types: OR
    */
+  // 발생할 수 있는 많은 케이스 중에 딱 한가지만 담을 경우
   type Direction = 'left' | 'right' | 'up' | 'down';
   function move(direction: Direction) {
     console.log(direction);
   }
   move('down');
-
+ 
   type TileSize = 8 | 16 | 32;
   const tile: TileSize = 16;
 
